@@ -1,0 +1,221 @@
+
+body{
+    margin: 0; max-width: 1440px; font-family: 'Roboto';
+}
+.learning_page{
+    display: flex;
+    width: 100%;
+}
+
+/*.............................This is only side_bar.................*/
+.side_bar {
+    display: flex; flex-direction: column; height: 620px;
+    justify-content: space-between; background-color: rgba(242, 240, 223, 1);
+    width: 200px;  padding: 20px;
+}
+.middle_option {
+    display: grid;  gap: 20px;
+}
+
+.middle_option>* {
+    display: flex;  gap: 14px;  align-items: center;   height: 30px;
+    width: 170px;   padding: 4px 6px
+}
+
+.inner_top_content {
+    display: grid;  gap: 46px;
+}
+
+.bottom_setting_content {
+    height: 30px;  display: flex; gap: 16px;  align-items: center;
+}
+
+
+.side_bar h3 {
+    margin: 0;  font-size: 16px;
+}
+.side_bar .nav_icon {
+    height: 40px;  width: 24px;   font-size: 20px;
+}
+
+.side_bar .learning {
+    background-color: rgba(218, 231, 197, 1);
+}
+
+/*..............................Top_nav_bar..........*/
+
+.top_nav_bottom_indivual_content_quiz{
+    width: 100%;
+}
+
+.top_nav {
+    height: 80px;   width: 100%;   background-color: rgba(242, 240, 223, 1);
+    display: flex;   justify-content: space-around;   align-items: center;
+}
+.top_nav>* {
+    width: 50%;
+}
+.top_nav input#search_box {
+    height: 40px;  width: 280px;  border: none; 
+    box-shadow: 0px 2px 2px gray;  border-radius: 30px;
+     padding: 0px 0px 0px 10px;
+}
+
+.search_box_parent {
+    display: flex; height: 40px; align-items: center; justify-content: end;
+}
+.left_search_box_with_icon {
+    display: flex; align-items: center;
+}
+.fa-magnifying-glass:before, .fa-search:before {
+   
+    position: relative; right: 34px;
+}
+/*..............................Right_Profile............*/
+.right_profile {
+    display: grid;  justify-content: end;  margin-right: 20px;  gap: 6px
+}
+.profile_round {
+    height: 30px;  width: 30px;  border-radius: 50%; cursor: pointer;
+    border: 1px solid gray;  background-image: url(IMG_20220427_223938_379\ \(1\).jpg);
+    background-repeat: no-repeat;  background-size: cover;
+    background-position: center;
+}
+.right_profile p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+/*..............................Learning_Left_headings..........*/
+/* 
+.bottom_learning_content_parent {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+.left_heading_content {
+    display: grid;
+    gap: 10px;
+}
+
+.learning_right_laguage_details {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.learnig_tile {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+.explain_berief_data {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    line-height: 22px;
+}
+.explain_berief_data iframe{
+
+    margin: 0 auto;
+}
+.bottom_two_btn {
+    display: flex;
+    justify-content: end;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+
+.bottom_two_btn button {
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px gray;
+    background-color: rgba(170, 62, 226, 1);
+    font-size: 14px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.bottom_two_btn button:hover{
+
+    transform: scale(1.05);
+}
+h3#language_title {
+    margin: 0;
+}
+
+.bottom_learning_content_parent p{
+
+    margin: 0;
+} */
+
+
+/*.....................................content_Quiz...............*/
+
+
+.bootm_content_quiz {
+    padding: 10px 20px;
+    width: 60%;
+    height: 270px;
+    margin: 0 auto;
+    /* text-align: center; */
+    background-color: lightsalmon;
+    margin-top: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 30px;
+}
+
+.bottom_quiz_btn button{
+
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px gray;
+    background-color: rgba(170, 62, 226, 1);
+    font-size: 14px;
+    font-weight: bolder;
+    cursor: pointer;
+   
+
+}
+button:hover{
+    transform: scale(1.05);
+
+}
+
+.bottom_quiz_btn {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.options_4>*,label:hover{
+    cursor: pointer;
+}
+
+/* button.previous_btn {
+    background-color: lightsalmon;
+    color: lightsalmon;
+    border: none;
+    box-shadow: 0px 0px;
+} */
+.previous_btn{
+    display: none;
+}
+.quiz_sunmit_btn{
+
+    display: none;
+}
