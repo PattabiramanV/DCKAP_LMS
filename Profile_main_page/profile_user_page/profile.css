@@ -1,0 +1,304 @@
+body {
+  margin: 0;
+  font-family: "Roboto";
+  max-width: 1440px;
+  background-color: white;
+  user-select: none;
+
+}
+
+#LMS_Container {
+  display: flex;
+  height: 100vh;
+}
+
+#Side_Bar {
+  color: black;
+  padding: 16px;
+  position: fixed;
+  height: 100%;
+  max-width: 160px;
+  width: 100%;
+  background-color: #f8fbf2;
+  z-index: 5;
+  border-right: 1px solid #e6e6e6;
+}
+
+
+
+/* LordIcon */
+
+lord-icon {
+  width: 18px;
+  position: relative;
+  right: 25px;
+}
+
+/* li Icon */
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  color: #91a775ed;
+}
+
+/* Nav_Bar */
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-link {
+  display: block;
+  color: #23313E ;
+
+  padding: 10px;
+  text-decoration: none;
+}
+
+a.nav-settings {
+  text-decoration: none;
+  padding: 15px;
+  display: flex;
+  color: #6e6b7b ;
+}
+
+ul.nav-list li:hover {
+  background-color: #99ecae75 !important;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul.nav-list li:hover {
+  background-color: #99ecae75 !important;
+  border-radius: 5px;
+}
+
+li.nav-set {
+  margin-top: 350px;
+}
+
+
+
+.Nav_Bar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+  /* padding: 20px; */
+  position: fixed;
+  width: 85%;
+  z-index: 1;
+  top: 0;
+  right: 2px;
+  justify-content: space-evenly;
+  gap: 21%;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.Search_Bar {
+  display: flex;
+  align-items: center;
+  transition: all .3s ease-in-out;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1),
+    0 0 10px rgba(255, 255, 255, 0.05);
+  width: 50% !important;
+}
+
+/* Ifont class */
+i.fas.fa-search {
+  position: relative;
+  right: 30px;
+  border-left: 1px solid #d8d6de;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  color: #38b22d;
+  background-color: transparent !important;
+}
+
+
+::before {
+  left: 5px;
+  position: relative;
+}
+
+.Heading {
+  font-size: x-large;
+}
+
+.user_actions {
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* gap: 7%; */
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button.cancel_btn {
+  width: 12%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+h1.profile_hdg {
+  font-size: 24px;
+  color: #12160a;
+  font-family: "Roboto";
+}
+
+h1.profile_hdg {
+  width: 15%;
+}
+
+.Search_Section {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #d8d6de;
+  background-color: #fff;
+  font-size: 13px;
+
+  outline: none;
+  border-radius: 1.5rem;
+
+
+}
+
+.Search_Icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.Profile_Bar {
+  display: flex;
+  align-items: center;
+  gap: 12%;
+  width: 10%;
+}
+
+img.Profile {
+  width: 35px;
+}
+
+/* Main_Content */
+
+#Main_Content {
+  flex-grow: 1;
+  padding: 0px;
+  justify-content: space-between;
+  margin-left: 13%;
+}
+
+.User_Profile {
+  width: 78%;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 66px;
+  margin-left: 12% !important;
+}
+
+.Profile_Section {
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 90%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: auto;
+}
+
+.profile_img {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.Users_img {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.profile_img img {
+  width: 100%;
+  height: auto;
+}
+
+.Profile_btn {
+  display: flex;
+  align-items: center;
+}
+
+.Profile_btn button {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Users_Details {
+  margin-top: 2%;
+  background-color: #fff;
+  background-clip: padding-box;
+  border:1px solid #d8d6de;
+  border-radius: 0.357rem;
+}
+
+.User_name_details {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+textarea {
+  border: 1px solid #d8d6de;
+}
+
+.name_details,
+.email_details,
+.phone_details,
+.Git_details,
+.Bio_details {
+  display: grid;
+  gap: 20px;
+}
+
+button.editbtn,.editbtnn {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+label {
+  color: #969d88;
+}
+
+button {
+  background-color: #49a843;
+}
+
+button:hover {
+  background-color: rgba(92, 235, 73, 0.61);
+}
+
+button:checked {
+  background-color: rgb(210, 245, 205);
+}
